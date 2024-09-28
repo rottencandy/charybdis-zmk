@@ -13,7 +13,7 @@
           
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <12>;
+        columns = <11>;
         rows = <6>;
 
         map = <
