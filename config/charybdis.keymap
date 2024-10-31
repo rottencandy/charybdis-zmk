@@ -75,11 +75,11 @@
         NuFu {
             label = "Numeral/Function";
             bindings = <
-&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR       &kp PERCENT          &kp CARET          &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp GRAVE         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp LBKT             &kp RBKT           &kp F1         &kp F2        &kp F3                &kp F4                 &kp DEL
-&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &soft_off            &kp BSLH           &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
-&kp LSHFT         &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL        &ext_power EP_TOG    &ext_power EP_TOG  &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
-                                                 &kp LEFT_WIN  &kp SPACE        &none                &kp ENTER          &kp BACKSPACE
+&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR       &kp PERCENT          &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp GRAVE         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp LBKT             &kp RBKT         &kp F1         &kp F2        &kp F3                &kp F4                 &kp DEL
+&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &soft_off            &kp BSLH         &kp F5         &kp F6        &kp F7                &kp F8                 &kp PAGE_UP
+&kp LSHFT         &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL        &ext_power EP_TOG    &rgb_ug RGB_TOG  &kp F9         &kp F10       &kp F11               &kp F12                &kp PAGE_DOWN
+                                                 &kp LEFT_WIN  &kp SPACE        &none                &kp ENTER        &kp BACKSPACE
                                                                &rgb_ug RGB_BRI  &rgb_ug RGB_BRD      &rgb_ug RGB_EFF
             >;
         };
