@@ -21,4 +21,34 @@ combos {
   COMBO(r_leftclick, &mkp LCLK, 17 18, BASE, COMBO_TERM_SLOW)
   COMBO(r_rightclick, &mkp RCLK, 27 28, BASE, COMBO_TERM_SLOW)
   COMBO(r_middleclick, &mkp MCLK, 26 27, BASE, COMBO_TERM_SLOW)
+
+  xc_alt {
+    bindings = <&kp LALT>;
+    key-positions = <38 39>;
+  };
+
+  comdot_alt {
+    bindings = <&kp LALT>;
+    key-positions = <44 45>;
+  };
+
+  zx_shift {
+    bindings = <&kp LSHFT>;
+    key-positions = <37 38>;
+  };
+
+  dotslash_shift {
+    bindings = <&kp RSHFT>;
+    key-positions = <45 47>;
+  };
+
+  fg_ctrl {
+    bindings = <&kp LCTRL>;
+    key-positions = <29 28>;
+  };
+
+  hj_ctrl {
+    bindings = <&kp RCTRL>;
+    key-positions = <31 30>;
+  };
 }; 
