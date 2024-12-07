@@ -14,7 +14,7 @@
     }; 
 
     vbatt: vbatt {
-	compatible = "zmk,battery-nrf-vddh";
+        compatible = "zmk,battery-nrf-vddh";
     };
           
     default_transform: keymap_transform_0 {
@@ -52,6 +52,7 @@
         label = "KSCAN";
 
         diode-direction = "row2col";
+        wakeup-source;
 		row-gpios
 	    = <&pro_micro 21 (GPIO_ACTIVE_HIGH)>
 	    , <&pro_micro 18 (GPIO_ACTIVE_HIGH)>
