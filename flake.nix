@@ -23,7 +23,9 @@
         board = "nice_nano_v2";
         shield = "charybdis_%PART%";
 
-        zephyrDepsHash = "sha256-HUuB0v6IW5hSj5sWcxmKrN5gPXzMs9VTJ5wJhxXaZes=";
+        zephyrDepsHash = "sha256-ywbkyNDZyEiHa9m8d1yBxRD9dJor5Zg/XHkPI/oJrPo=";
+
+        enableZmkStudio = true;
 
         meta = {
           description = "ZMK firmware";
