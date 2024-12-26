@@ -25,8 +25,6 @@
 / {
     #include "combos.dtsi"
 
-    chosen { zmk,matrix_transform = &five_column_transform; };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,10 +67,10 @@
         Func {
             label = "Func";
             bindings = <
-&trans           &trans      &trans             &trans        &trans  &trans      &trans        &trans        &trans        &trans  &trans   &rgb_ug RGB_EFF
-&trans           &kp F1      &kp F2             &kp F3        &kp F4  &kp F5      &kp F6        &kp F7        &kp F8        &kp F9  &kp F10  &rgb_ug RGB_BRI
-&rgb_ug RGB_TOG  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &kp CAPS    &out OUT_BLE  &bt BT_SEL 0  &bt BT_SEL 1  &trans  &kp F11  &rgb_ug RGB_BRD
-&trans           &trans      &trans             &trans        &trans  &to GAME    &out OUT_USB  &trans        &trans        &trans  &kp F12  &trans
+&trans           &trans      &trans             &trans        &trans  &trans      &trans        &trans        &trans        &trans          &trans   &rgb_ug RGB_EFF
+&trans           &kp F1      &kp F2             &kp F3        &kp F4  &kp F5      &kp F6        &kp F7        &kp F8        &kp F9          &kp F10  &rgb_ug RGB_BRI
+&rgb_ug RGB_TOG  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &kp CAPS    &out OUT_BLE  &bt BT_SEL 0  &bt BT_SEL 1  &trans          &kp F11  &rgb_ug RGB_BRD
+&trans           &trans      &trans             &trans        &trans  &to GAME    &out OUT_USB  &trans        &trans        &studio_unlock  &kp F12  &trans
                                                 &trans        &trans  &trans      &trans        &trans
                                                               &trans  &trans      &trans
             >;
