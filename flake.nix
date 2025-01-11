@@ -23,7 +23,7 @@
         board = "nice_nano_v2";
         shield = "charybdis_%PART%";
 
-        zephyrDepsHash = "sha256-ywbkyNDZyEiHa9m8d1yBxRD9dJor5Zg/XHkPI/oJrPo=";
+        zephyrDepsHash = "sha256-Hhm9o88zAyoFfZR0xGUJrNaGDehe4W+uLD44Jt+jmZQ=";
 
         enableZmkStudio = true;
 
