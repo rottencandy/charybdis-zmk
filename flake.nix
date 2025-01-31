@@ -16,16 +16,20 @@
 
       firmware = zmk-nix.legacyPackages.${system}.buildSplitKeyboard {
         name = "char";
-        #enableZmkStudio = true;
-
         src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
 
+        # boards
         board = "nice_nano_v2";
         shield = "charybdis_%PART%";
 
-        zephyrDepsHash = "sha256-37D4KwS6OsBwU2tSPH6mv4gj0uKqX1V+DcvNGz+gb/g=";
+
+        # bt settings reset
+        #board = "nice_nano_v2";
+        #shield = "settings_reset";
+        #parts = [ "left" "right" "dongle" ];
 
         enableZmkStudio = true;
+        zephyrDepsHash = "sha256-BV9nDRzMhr5CRwmjUEy6wfJ8sh0vNUZivjfBzC2BHF4=";
 
         meta = {
           description = "ZMK firmware";
