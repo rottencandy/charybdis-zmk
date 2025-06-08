@@ -6,9 +6,14 @@
  
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "charybdis-layouts.dtsi"
+#include "split_input_common.dtsi"
 
 &physical_layout0 {
     transform = <&default_transform>;
+};
+
+&trackball_listener {
+    status = "okay";
 };
 
 /{

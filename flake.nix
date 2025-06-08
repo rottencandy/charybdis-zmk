@@ -37,7 +37,7 @@
         #parts = [ "left" "right" "dongle" ];
 
         enableZmkStudio = true;
-        zephyrDepsHash = "sha256-BV9nDRzMhr5CRwmjUEy6wfJ8sh0vNUZivjfBzC2BHF4=";
+        zephyrDepsHash = "sha256-sUMgSoRR2R3QF72WKPUz21GMOoOgxDn+Cz2C0MBsTzM=";
 
         meta = {
           description = "ZMK firmware";
